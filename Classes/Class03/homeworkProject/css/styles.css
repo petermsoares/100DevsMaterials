@@ -9,7 +9,7 @@ body{
 
 body > section{
     border: 5px solid rgb(255, 247, 135);
-    margin: 30px;
+    margin: 40px auto 0 auto;
     padding: 70px;
     max-width: 800px;
 }
