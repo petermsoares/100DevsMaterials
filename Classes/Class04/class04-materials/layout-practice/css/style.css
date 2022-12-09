@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(189, 189, 189);
+}
+
+footer{
+    clear: both;
+}
+
+article{
+    border: 2px solid rgb(150, 150, 150);
+    background-color: rgb(189, 189, 189);
+    float: left;
+    height: 40vh;
+    width: 33.33%;
+}
+
+section > #article1, #article3{
+    border-left: none;
+    border-right: none;
+}
+
