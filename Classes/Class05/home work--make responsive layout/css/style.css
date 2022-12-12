@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(189, 189, 189);
+}
+
+footer{
+    clear: both;
+}
+
+article{
+    border: 2px solid rgb(150, 150, 150);
+    background-color: rgb(189, 189, 189);
+    float: left;
+    height: 40vh;
+    width: 33.33%;
+}
+
+section > #article1, #article3{
+    border-left: none;
+    border-right: none;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(255, 72, 0);
+}
+
+
+@media screen and (max-width: 800px){
+    article#article1,
+    article#article2,
+    article#article3
+    {
+        background-color: rgb(231, 207, 71);
+        float: none;
+        width: 100%;
+        border: transparent;
+        margin-bottom: 4px;
+    }
+}
